@@ -16,10 +16,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "754BE45F19693E190098E6F3"
-               BuildableName = "CryptoSwiftTests.xctest"
-               BlueprintName = "CryptoSwiftTests"
-               ReferencedContainer = "container:CryptoSwift.xcodeproj">
+               BlueprintIdentifier = "7595C1492072E48C00EA1A5F"
+               BuildableName = "TestsPerformance-Mac.xctest"
+               BlueprintName = "TestsPerformance-Mac"
+               ReferencedContainer = "container:CryptoSwift2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -36,7 +36,7 @@
       allowLocationSimulation = "YES">
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Test"
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"

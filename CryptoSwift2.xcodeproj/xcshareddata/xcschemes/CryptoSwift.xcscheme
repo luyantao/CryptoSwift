@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "754BE45419693E190098E6F3"
-               BuildableName = "CryptoSwift.framework"
-               BlueprintName = "CryptoSwift"
-               ReferencedContainer = "container:CryptoSwift.xcodeproj">
+               BuildableName = "CryptoSwift2.framework"
+               BlueprintName = "CryptoSwift2"
+               ReferencedContainer = "container:CryptoSwift2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "754BE45F19693E190098E6F3"
-               BuildableName = "CryptoSwiftTests.xctest"
-               BlueprintName = "CryptoSwiftTests"
-               ReferencedContainer = "container:CryptoSwift.xcodeproj">
+               BuildableName = "CryptoSwift2Tests.xctest"
+               BlueprintName = "CryptoSwift2Tests"
+               ReferencedContainer = "container:CryptoSwift2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "7595C1492072E48C00EA1A5F"
                BuildableName = "TestsPerformance-Mac.xctest"
                BlueprintName = "TestsPerformance-Mac"
-               ReferencedContainer = "container:CryptoSwift.xcodeproj">
+               ReferencedContainer = "container:CryptoSwift2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -59,7 +59,7 @@
                BlueprintIdentifier = "7564F04E2072EAEB00CA5A96"
                BuildableName = "TestsPerformance-iOS.xctest"
                BlueprintName = "TestsPerformance-iOS"
-               ReferencedContainer = "container:CryptoSwift.xcodeproj">
+               ReferencedContainer = "container:CryptoSwift2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "754BE45419693E190098E6F3"
-            BuildableName = "CryptoSwift.framework"
-            BlueprintName = "CryptoSwift"
-            ReferencedContainer = "container:CryptoSwift.xcodeproj">
+            BuildableName = "CryptoSwift2.framework"
+            BlueprintName = "CryptoSwift2"
+            ReferencedContainer = "container:CryptoSwift2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -87,9 +87,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "754BE45F19693E190098E6F3"
-               BuildableName = "CryptoSwiftTests.xctest"
-               BlueprintName = "CryptoSwiftTests"
-               ReferencedContainer = "container:CryptoSwift.xcodeproj">
+               BuildableName = "CryptoSwift2Tests.xctest"
+               BlueprintName = "CryptoSwift2Tests"
+               ReferencedContainer = "container:CryptoSwift2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -108,9 +108,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "754BE45419693E190098E6F3"
-            BuildableName = "CryptoSwift.framework"
-            BlueprintName = "CryptoSwift"
-            ReferencedContainer = "container:CryptoSwift.xcodeproj">
+            BuildableName = "CryptoSwift2.framework"
+            BlueprintName = "CryptoSwift2"
+            ReferencedContainer = "container:CryptoSwift2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -124,9 +124,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "754BE45419693E190098E6F3"
-            BuildableName = "CryptoSwift.framework"
-            BlueprintName = "CryptoSwift"
-            ReferencedContainer = "container:CryptoSwift.xcodeproj">
+            BuildableName = "CryptoSwift2.framework"
+            BlueprintName = "CryptoSwift2"
+            ReferencedContainer = "container:CryptoSwift2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

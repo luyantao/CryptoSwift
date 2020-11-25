@@ -19,7 +19,7 @@
                BlueprintIdentifier = "7564F04E2072EAEB00CA5A96"
                BuildableName = "TestsPerformance-iOS.xctest"
                BlueprintName = "TestsPerformance-iOS"
-               ReferencedContainer = "container:CryptoSwift.xcodeproj">
+               ReferencedContainer = "container:CryptoSwift2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
