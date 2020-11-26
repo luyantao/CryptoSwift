@@ -38,9 +38,9 @@
 		7564F0562072EAEB00CA5A96 /* DigestTestsPerf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576F6EB20726319006688F8 /* DigestTestsPerf.swift */; platformFilter = ios; };
 		7564F0572072EAEB00CA5A96 /* TestsPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595C14C2072E48C00EA1A5F /* TestsPerformance.swift */; platformFilter = ios; };
 		7564F0582072EAEB00CA5A96 /* AESTestsPerf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576F6EE20726422006688F8 /* AESTestsPerf.swift */; platformFilter = ios; };
-		7564F05A2072EAEB00CA5A96 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BE45519693E190098E6F3 /* CryptoSwift.framework */; };
-		7564F0642072ED7000CA5A96 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BE45519693E190098E6F3 /* CryptoSwift.framework */; };
-		7564F0652072ED7000CA5A96 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 754BE45519693E190098E6F3 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7564F05A2072EAEB00CA5A96 /* CryptoSwift2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BE45519693E190098E6F3 /* CryptoSwift2.framework */; };
+		7564F0642072ED7000CA5A96 /* CryptoSwift2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BE45519693E190098E6F3 /* CryptoSwift2.framework */; };
+		7564F0652072ED7000CA5A96 /* CryptoSwift2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 754BE45519693E190098E6F3 /* CryptoSwift2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		756A64C62111083B00BE8805 /* StreamEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756A64C52111083B00BE8805 /* StreamEncryptor.swift */; };
 		757DA2531A4ED0A4002BA3EF /* PaddingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757DA2521A4ED0A4002BA3EF /* PaddingTests.swift */; };
 		757DA2551A4ED408002BA3EF /* AESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757DA2541A4ED408002BA3EF /* AESTests.swift */; };
@@ -55,10 +55,10 @@
 		7595C15B2072E5B900EA1A5F /* RabbitTestsPerf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576F6F220728F00006688F8 /* RabbitTestsPerf.swift */; };
 		7595C15C2072E5B900EA1A5F /* ExtensionsTestPerf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576F6F420729069006688F8 /* ExtensionsTestPerf.swift */; };
 		7595C15D2072E5B900EA1A5F /* PBKDFPerf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7576F6F6207290F8006688F8 /* PBKDFPerf.swift */; };
-		7595C1602072E64900EA1A5F /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BE45519693E190098E6F3 /* CryptoSwift.framework */; };
+		7595C1602072E64900EA1A5F /* CryptoSwift2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BE45519693E190098E6F3 /* CryptoSwift2.framework */; };
 		75B3ED77210F9DF7005D4ADA /* BlockDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3ED76210F9DF7005D4ADA /* BlockDecryptor.swift */; };
 		75B3ED79210FA016005D4ADA /* BlockEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3ED78210FA016005D4ADA /* BlockEncryptor.swift */; };
-		75B601EB197D6A6C0009B53D /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BE45519693E190098E6F3 /* CryptoSwift.framework */; };
+		75B601EB197D6A6C0009B53D /* CryptoSwift2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BE45519693E190098E6F3 /* CryptoSwift2.framework */; };
 		75C2E76D1D55F097003D2BCA /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C2E76C1D55F097003D2BCA /* Access.swift */; };
 		75D7AF38208BFB1600D22BEB /* UInt128.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7AF37208BFB1600D22BEB /* UInt128.swift */; };
 		75EC527B1EE8B73A0048EB3B /* CryptoSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 75EC527A1EE8B6CA0048EB3B /* CryptoSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -180,7 +180,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7564F0652072ED7000CA5A96 /* CryptoSwift.framework in Embed Frameworks */,
+				7564F0652072ED7000CA5A96 /* CryptoSwift2.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +229,7 @@
 		7536A93E207254A000F39140 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		754310432050111A003FB1DF /* CompactMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactMap.swift; sourceTree = "<group>"; };
 		75482EA31CB310B7001F66A5 /* PBKDF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBKDF.swift; sourceTree = "<group>"; };
-		754BE45519693E190098E6F3 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		754BE45519693E190098E6F3 /* CryptoSwift2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		754BE46019693E190098E6F3 /* CryptoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		754BE46719693E190098E6F3 /* DigestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigestTests.swift; sourceTree = "<group>"; };
 		755E0303217A756F00065FC6 /* AESCCMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESCCMTests.swift; sourceTree = "<group>"; };
@@ -331,7 +331,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7564F0642072ED7000CA5A96 /* CryptoSwift.framework in Frameworks */,
+				7564F0642072ED7000CA5A96 /* CryptoSwift2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +346,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B601EB197D6A6C0009B53D /* CryptoSwift.framework in Frameworks */,
+				75B601EB197D6A6C0009B53D /* CryptoSwift2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +354,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7564F05A2072EAEB00CA5A96 /* CryptoSwift.framework in Frameworks */,
+				7564F05A2072EAEB00CA5A96 /* CryptoSwift2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +362,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7595C1602072E64900EA1A5F /* CryptoSwift.framework in Frameworks */,
+				7595C1602072E64900EA1A5F /* CryptoSwift2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +415,7 @@
 		754BE45619693E190098E6F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				754BE45519693E190098E6F3 /* CryptoSwift.framework */,
+				754BE45519693E190098E6F3 /* CryptoSwift2.framework */,
 				754BE46019693E190098E6F3 /* CryptoSwiftTests.xctest */,
 				75211F92207249D8004E41F8 /* CryptoSwift-TestHostApp.app */,
 				7595C14A2072E48C00EA1A5F /* TestsPerformance-Mac.xctest */,
@@ -661,7 +661,7 @@
 			);
 			name = CryptoSwift;
 			productName = CryptoSwift;
-			productReference = 754BE45519693E190098E6F3 /* CryptoSwift.framework */;
+			productReference = 754BE45519693E190098E6F3 /* CryptoSwift2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		754BE45F19693E190098E6F3 /* CryptoSwiftTests */ = {
@@ -1040,6 +1040,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FAF20724A10004E41F8 /* CryptoSwift-Debug.xcconfig */;
 			buildSettings = {
+				PRODUCT_NAME = CryptoSwift2;
 			};
 			name = Debug;
 		};
@@ -1047,6 +1048,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FAC20724A0F004E41F8 /* CryptoSwift-Release.xcconfig */;
 			buildSettings = {
+				PRODUCT_NAME = CryptoSwift2;
 			};
 			name = Release;
 		};
@@ -1095,6 +1097,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FB420724A10004E41F8 /* CryptoSwift-Test.xcconfig */;
 			buildSettings = {
+				PRODUCT_NAME = CryptoSwift2;
 			};
 			name = Test;
 		};

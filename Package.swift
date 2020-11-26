@@ -15,9 +15,9 @@ let package = Package(
     )
   ],
   targets: [
-    .binaryTarget(
+    .target(
         name: "CryptoSwift2",
-        path: "CryptoSwift.xcframework"
+        dependencies: []
     ),
     .testTarget(name: "TestsPerformance", dependencies: ["CryptoSwift2"])
   ]
